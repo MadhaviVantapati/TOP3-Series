@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+background-color:azure
+}
+
+.card_img{
+  height: 190px;
+  length:60%;
+  width: 100%;
+  flex: 33.33%;
+  padding: 5px;
+  radius:30px;
+  border-radius: 0%;
+  border-style: inset;
+  border-color: black;
+  
+  
+  
+}
+.cards{
+  padding-left: 100%;
+  display: inline;
+  float: left;
+  padding-right: 40%;
+  padding-left: 5%;
+  margin-left: 105px;
+  margin-top: 80px;
+  padding-right: 5%;
+  length:200px;
+  width:180px;
+  background-color: beige;
+  
+  
+
+  
+  
+}
+.card-info{
+  background-color:beige;
+  /*padding: 20px,20px;*/
+
+  }
+  .card_category{
+    font-weight: 10%;
+    
+  }
+.heading{
+  justify-content: center;
+  align-items: center;           
+  display: flex;
+  border-spacing: 70px ;
+  background-color:antiquewhite;
+  padding: 20px 20px;
+  border-style:ridge;
+  padding-bottom: -10%;
+
+  
+}
+.card_category{
+  font-weight: 1000;
+  font-display:unset;
+  color:brown
+}
+button{
+  cursor: pointer;
+  background-color:burlywood;
+  border-color:pink;
+  font-weight: 1000;
+  width: 100%;
+  length:100%
+}
+.card_heading{
+  font-style:calc();
+  font-weight: 2000;
+  
+}
+
+
